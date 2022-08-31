@@ -1,0 +1,31 @@
+$primary : #003e7aff;
+$secondary : #10191eff;
+$nav-tabs-border-color: #537ca5ff;;
+$nav-tabs-link-active-border-color: #003e7aff;
+$nav-tabs-link-active-bg: #537ca5ff;
+$nav-link-font-weight: bold;
+$nav-tabs-link-hover-border-color: #537ca5ff;
+$navbar-hover-color: #003e7aff;
+$navbar-brand-color: #ebf2faff;
+$accordion-btn-active-icon: #537ca5ff;
+
+
+
+$indigo-dye: #003e7aff;
+$alice-blue: #ebf2faff;
+$steel-blue: #537ca5ff;
+$indigo-dye-2: #003e7aff;
+$rich-black-fogra-29: #10191eff;
+
+//import all of bootstrap's styles
+@import 'bootstrap';
+
+// any specific overrides here
+p {
+  color: $secondary;
+}
+
+h4{
+  margin-top: 15px;
+  color: $primary;
+}
